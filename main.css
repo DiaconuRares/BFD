@@ -15,3 +15,11 @@
 	background-color: black;
 	font-size: 2vw;
 }
+
+.level0>div>kbd {
+	font-size: 2vw;
+}
+
+.level0>div {
+	padding: 1vw;
+}
