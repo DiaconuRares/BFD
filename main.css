@@ -99,13 +99,13 @@ body {
   align-self: flex-start;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 8vw;
+  flex: 1;
   width: 100%;
 }
 
 .b1>.wrapper>.container2 {
   margin: 0;
-  height: calc(100% - 8vw);
+  flex: 8;
   width: 100%;
   display: flex;
   overflow: hidden;
@@ -114,11 +114,11 @@ body {
 }
 
 .b1>.wrapper>.header1>.back {
-  height: 8vw;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 16vw;
+  width: 15%;
   font-size: 2vw;
   background-color: tan;
   color: white;
@@ -127,9 +127,9 @@ body {
 
 .b1>.wrapper>.container2>.login-form {
   margin: 0;
-  height: 500px;
+  height: 80%;
   display: flex;
-  width: 300px;
+  width: 35vw;
   background-color: white;
   opacity: 0.8;
   color: black;
@@ -138,28 +138,28 @@ body {
   justify-content: center;
   align-items: center;
   border: 2px solid black;
-  border-radius: 3vw;
+  border-radius: 25px;
 }
 
 .b1>.wrapper>.container2>.login-form>form>input {
-  width: 200px;
-  height: 30px;
+  width: 100%;
+  height: 3.5vw;
   display: flex;
-  margin-bottom: 20px;
-  font-size: 20px;
+  margin-bottom: 1.7vw;
+  font-size: 1.5vw;
   justify-content: flex-start;
 }
 
 .b1>.wrapper>.container2>.login-form>form {
-  font-size: 20px;
+  font-size: 2vw;
 }
 
 .b1>.wrapper>.container2>.login-form>form>.btn0 {
   margin: auto;
   background-color: black;
   color: white;
-  height: 70px;
-  width: 150px;
+  height: 5vw;
+  width: 10vw;
   display: flex;
   justify-content: center;
   align-items: center;
