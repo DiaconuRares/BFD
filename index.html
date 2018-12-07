@@ -10,7 +10,7 @@
         <script src="index.js"></script>
     </head>
     <body>
-      <div data-aos-"fade-up" data-aos-duration="1000" class="header">
+      <div class="header">
         <div class="container0 cont">
           <h1>
             <kbd>
@@ -20,13 +20,13 @@
         </div>
         <div class="container1 cont">
           <ul>
-            <li>Despre</li>
-            <li>Inregistreaza-te</li>
-            <li>Contact</li>
+            <li class="link link0">Despre</li>
+            <li class="link link1">Inregistreaza-te</li>
+            <li class="link link2">Contact</li>
           </ul>
         </div>
       </div>
-      <div class="context">
+      <div class="context wrapper">
         <h1>
             Welcome! <a href="login.html">Login</a> to enter the main site.
         </h1>
@@ -34,8 +34,46 @@
           This is my first php website. Hope you like it!
         </small>
       </div>
-      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-      <script>
-        AOS.init();
-      </script>
+        <div class="wrapper0 wrapper">
+            <div class="heading">
+                <h1>
+                    Despre
+                </h1>
+            </div>
+            <div class="text0 text">Am facut acest site pentru a demonstra skill-ul meu de programare web...</div>
+            <div class="text1 text">Intra pe toate sectiunile create de mine. Sper sa iti placa!</div>
+        </div>
+        <div class="wrapper1 wrapper">
+            <div class="heading text">
+                <h1>Contact</h1>
+            </div>
+            <div class="Adresa">
+                <h2>ADRESA</h2> <br />
+                <ul class="list0 list">
+                    <li>Judet *</li>
+                    <li>Oras *</li>
+                    <li>Strada *</li>
+                </ul>
+                <h2>TELEFON</h2>
+                <ul class="list1 list">
+                    <li>07** *** ***</li>
+                </ul>
+                <h2>EMAIL</h2>
+                <ul class="list2 list">
+                    <li>exemplu@mail.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="wrapper2 wrapper">
+            <div class="heading">
+                <h1>Register</h1>
+            </div>
+            <form method="post">
+                <div class="text text0">Username</div>
+                <input name="username" type="text" placeholder="USERNAME">
+                <div class="text text1">Password</div>
+                <input name="password" type="text" placeholder="PASSWORD">
+                <input class="btn" type="submit" value="Register">
+            </form>
+        </div>
     </body>
